@@ -37,18 +37,18 @@ This project was created to strengthen hands-on Linux support skills for Ubuntu-
 
 ## Casebook Index
 
-| Case | Issue | Key Tools |
-|---|---|---|
-| Case 001 | SSH login failure | `ssh`, `ss`, `systemctl`, `journalctl`, permissions |
-| Case 002 | Disk full in `/var/log` | `df`, `du`, `journalctl`, `logrotate` |
-| Case 003 | Failed Nginx service | `systemctl`, `journalctl`, `nginx -t` |
-| Case 004 | DNS resolution failure | `dig`, `resolvectl`, `/etc/resolv.conf` |
-| Case 005 | Firewall blocking web traffic | `ufw`, `ss`, `curl` |
-| Case 006 | Permission denied on shared directory | `ls`, `id`, `groups`, `chmod`, `chown`, `getfacl` |
-| Case 007 | Cron job not running | `crontab`, `journalctl`, shell paths |
-| Case 008 | APT package update failure | `apt update`, `dpkg`, repository checks |
-| Case 009 | High CPU process | `top`, `ps`, `kill`, `systemctl` |
-| Case 010 | Logrotate not rotating logs | `logrotate`, `/etc/logrotate.d/`, disk usage |
+| Case | Issue | Key Tools | Link |
+|---|---|---|---|
+| Case 001 | SSH login failure | `ssh`, `systemctl`, `journalctl`, `ss`, `ufw`, permissions | [View Case](cases/case-001-ssh-login-failure.md) |
+| Case 002 | Disk full in `/var/log` | `df`, `du`, `journalctl`, `logrotate` | [View Case](cases/case-002-disk-full-var-log.md) |
+| Case 003 | Failed Nginx service | `systemctl`, `journalctl`, `nginx -t` | [View Case](cases/case-003-failed-nginx-service.md) |
+| Case 004 | DNS resolution failure | `dig`, `resolvectl`, `/etc/resolv.conf` | [View Case](cases/case-004-dns-resolution-failure.md) |
+| Case 005 | Firewall blocking web traffic | `ufw`, `ss`, `curl` | [View Case](cases/case-005-firewall-blocking-web-traffic.md) |
+| Case 006 | Permission denied on shared directory | `ls`, `id`, `groups`, `chmod`, `chown`, `getfacl` | [View Case](cases/case-006-permission-denied-shared-directory.md) |
+| Case 007 | Cron job not running | `crontab`, `journalctl`, shell paths | [View Case](cases/case-007-cron-job-not-running.md) |
+| Case 008 | APT package update failure | `apt`, `dpkg`, repository checks | [View Case](cases/case-008-apt-package-update-failure.md) |
+| Case 009 | High CPU process | `top`, `ps`, `kill`, `systemctl` | [View Case](cases/case-009-high-cpu-process.md) |
+| Case 010 | Logrotate not rotating logs | `logrotate`, `/etc/logrotate.d/`, disk usage | [View Case](cases/case-010-logrotate-not-rotating-logs.md) |
 
 ## Standard Case Format
 
